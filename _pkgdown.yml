@@ -1,0 +1,14 @@
+template:
+  params:
+    bootswatch: sketchy
+
+navbar:
+  structure:
+    right: [github]
+  components:
+    home: ~
+    extensions:
+    github:
+      icon: fa-github fa-lg
+      href: https://github.com/etc5523-2022/rpkg-aphiaut
+
