@@ -1,0 +1,37 @@
+
+#### Data
+
+This data illustrates the rank of major by median income after students graduate in the USA and behinds 
+[the story The Economic Guide To Picking A College Major](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/).
+
+The original data and more can find at [here](https://www.census.gov/programs-surveys/acs/microdata.html).
+
+
+#### Purpose
+
+The purpose of the app is to:
+
+1. help young people or students considering studying a college major and employment when it’s time for job hunting.
+2. visualise the data to be a simple pattern and easy for normal people to understand.
+
+The data showed 
+
+The stunning Graduate College Major app used interactive components to see the table of the rank of majors by income in the overview section, users can select the range of income and unemployment rate and click the filter button to play with it. Moreover, users can see the treemap of median income in the overview section, users can choose the major category to look for to see it. The visual comparison section illustrates the visualisation of this data set, including the number of students, employment rate, employment, median income comparison, percentage of full employment, and full-time employment vs median income. 
+
+
+
+
+
+
+
+
+#### Creator
+
+Aphiaut Imuan (aimu0001@student.monash.edu)
+
+<details>
+<summary>Session information</summary>
+```{r, echo = FALSE}
+sessioninfo::session_info()
+```
+</details>

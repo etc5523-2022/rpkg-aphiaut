@@ -1,0 +1,84 @@
+.about {
+  background-color: #e3e3e3;
+  border: 1px dashed grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.row {
+  padding: 5px;
+}
+
+h3 {
+  color: #6FB3B8;
+  font-size: 1.5em;
+}
+
+h5 {
+  color: #6FB3B8;
+  font-size: 14px;
+  text-align: justify;
+}
+
+details > summary:first-of-type {
+    display: list-item;
+    counter-increment: list-item 0;
+    list-style: inside disclosure-closed;
+}
+
+
+h1 {
+  color: #388087;
+  font-size: 2em;
+}
+
+
+body {
+  background-color:#F6F6F2;
+}
+
+.navbar-default {
+    background-color: #388087;
+    border-color: transparent;
+}
+
+table.dataTable tbody tr {
+    background-color: #F6F6F2;
+}
+
+
+.form-group {
+    margin-bottom: 15px;
+    color: #6FB3B8;
+}
+
+
+
+.irs-bar {
+    top: 25px;
+    height: 8px;
+    border-top: 1px solid #6FB3B8;
+    border-bottom: 1px solid #6FB3B8;
+    background: #6FB3B8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #e3e3e3;
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+}

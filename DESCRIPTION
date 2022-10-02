@@ -4,7 +4,7 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Aphiaut", "Imuan", , "aimu0001@student.monash.edu", role = c("aut", "cre"))
 Description: Provides datasets and functions to show graph of Shiny app that illustrates the rank of major in the USA by median income.
-License: GPL-3
+License: MIT + file LICENSE
 Encoding: UTF-8
 Language: es
 Roxygen: list(markdown = TRUE)
