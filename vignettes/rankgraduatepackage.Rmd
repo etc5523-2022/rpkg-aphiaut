@@ -1,0 +1,48 @@
+---
+title: "Rank Graduated Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Rank Graduated Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+
+# Getting Started
+
+The `rankgraduate` package serves as a container for a Shiny Application. This vignette describes how do you launch the application, download the dataset, and use basic function from this package.
+
+## Install and read the package
+```{r setup}
+# devtools::install_github
+library(rankgraduate)
+```
+
+
+## Launching the Shiny Application
+
+```{r launch-app, eval = FALSE}
+launch_app()
+```
+
+## Download the dataset
+
+```{r dataset, eval = FALSE}
+rankgraduate::university
+```
+
+## The basic functions
+
+```{r, eval = FALSE}
+rankgraduate::max("The numeric variable that you interested")
+rankgraduate::min("The numeric variable that you interested")
+```
+
+
