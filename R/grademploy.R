@@ -43,7 +43,7 @@ employee <- function(major = NULL){
 }
 
 
-#' Five number
+#' Maximum and Minimum
 #'
 #' @description
 #' This functiond illustrate Maximum and Minimum.

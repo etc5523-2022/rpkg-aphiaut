@@ -20,8 +20,9 @@ knitr::opts_chunk$set(
 The `rankgraduate` package serves as a container for a Shiny Application. This vignette describes how do you launch the application, download the dataset, and use basic function from this package.
 
 ## Install and read the package
-```{r setup}
-# devtools::install_github
+
+```{r, message=FALSE}
+#devtools::install_github("etc5523-2022/rpkg-aphiaut")
 library(rankgraduate)
 ```
 
@@ -38,11 +39,34 @@ launch_app()
 rankgraduate::university
 ```
 
+This dataset behind the story [The Economic Guide To Picking A College Major](https://fivethirtyeight.com/features/the-economic-guide-to-picking-a-college-major/). If you want to know the variables of this dataset, you can use a single line of code:
+
+```{r, eval = FALSE}
+?rankgraduate::university
+```
+
+
+
+
 ## The basic functions
 
 ```{r, eval = FALSE}
 rankgraduate::max("The numeric variable that you interested")
 rankgraduate::min("The numeric variable that you interested")
+```
+
+These functions can illustrate the maximum and minimum of the numeric variable without dataset and $ in the line code.
+
+## The graph employee function
+
+```{r, eval=FALSE}
+rankgraduate::employee("The name of major that you interested")
+```
+
+This function illustrates the figure of the number of jobs that require the major degree in the USA. If you don't sure about the name of major, you can use a single line of code:
+
+```{r, eval=FALSE}
+unique(rankgraduate::university$Major)
 ```
 
 

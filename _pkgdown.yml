@@ -1,6 +1,6 @@
 template:
   params:
-    bootswatch: sketchy
+    bootswatch: flatly
 
 navbar:
   structure:

@@ -3,7 +3,7 @@
 \name{max}
 \alias{max}
 \alias{min}
-\title{Five number}
+\title{Maximum and Minimum}
 \usage{
 max(variable = NULL)
 

@@ -4,23 +4,24 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of rankgraduate is to ...
+The goal of `rankgraduate` is to provide a basic and easy-to-understand information of the rank of major college in the United States with Shiny Application. Moreover this package provides the dataset of rank of graduate in the USA and the basic functions that users can use.
 
 ## Installation
 
-You can install the development version of rankgraduate from [GitHub](https://github.com/) with:
+You can install the development version of rankgraduate from [GitHub](https://github.com/etc5523-2022/rpkg-aphiaut) with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("etc5523-2022/rpkg-aphiaut")
 ```
 
-## Example
+## Get Started
 
-This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(rankgraduate)
-## basic example code
+
+# Luanch shiny application
+launch_app()
 ```
 
