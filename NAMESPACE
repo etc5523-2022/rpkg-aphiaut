@@ -2,7 +2,9 @@
 
 export("%>%")
 export(employee)
-export(max)
-export(min)
+export(maxvar)
+export(minvar)
 export(run_app)
+export(table_rank)
 importFrom(magrittr,"%>%")
+importFrom(rlang,.data)

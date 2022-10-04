@@ -11,7 +11,7 @@ Provides datasets and functions to show graph of Shiny app that illustrates the 
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/etc5523-2022/rpkg-aphiaut}
+  \item \url{https://rankgraduate.netlify.app/}
 }
 
 }

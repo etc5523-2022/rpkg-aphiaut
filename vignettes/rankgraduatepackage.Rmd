@@ -69,4 +69,10 @@ This function illustrates the figure of the number of jobs that require the majo
 unique(rankgraduate::university$Major)
 ```
 
+## The table of median income
 
+```{r, eval=FALSE}
+rankgraduate::table_rank("max","min")
+```
+
+This function illustrates the table of data by median income. Users can choose the range of median income followed by user's interested.

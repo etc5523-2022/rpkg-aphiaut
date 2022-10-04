@@ -10,7 +10,7 @@ employee <- function(major = NULL){
 
 
   if(is.null(major)){
-    stop("Please push the major")
+    stop("Please insert the major")
   }
 
   else{
@@ -43,50 +43,3 @@ employee <- function(major = NULL){
 }
 
 
-#' Maximum and Minimum
-#'
-#' @description
-#' These functions illustrate Maximum and Minimum.
-#'
-#' @param variable is the numeric variables in university dataset.
-#'
-
-#'
-#' @export
-max <- function(variable = NULL){
-
-
-  if(is.null(variable)){
-    stop("Please select a variable such as 'Men','Women','Employed','Full_time','Part_time','Unemployed','Median'")
-  }
-
-  else{
-    `%>%` <- dplyr::`%>%`
-    university <- rankgraduate::university
-    College_jobs <- Non_college_jobs <- Major <- Major_category <- NULL
-
-    dt <- university %>% dplyr::select({{variable}})
-
-    max <- base::max(dt, na.rm = TRUE)
-  }
-}
-
-#' @rdname max
-#' @export
-min <- function(variable = NULL){
-
-
-  if(is.null(variable)){
-    stop("Please select a variable such as 'Men','Women','Employed','Full_time','Part_time','Unemployed','Median'")
-  }
-
-  else{
-    `%>%` <- dplyr::`%>%`
-    university <- rankgraduate::university
-    College_jobs <- Non_college_jobs <- Major <- Major_category <- NULL
-
-    dt <- university %>% dplyr::select({{variable}})
-
-    max <- base::min(dt, na.rm = TRUE)
-  }
-}

@@ -1,7 +1,12 @@
+
+
 test_that("employee function works", {
 
-  df <- rankgraduate::university
+  library(rankgraduate)
 
-  expect_equal(max("Median"), 110000)
-  expect_equal(min("Median"), 22000)
+
+
+  expect_equal(maxvar("Median"), 110000)
+  expect_equal(minvar("Median"), 22000)
 })
+

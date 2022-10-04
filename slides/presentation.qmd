@@ -1,0 +1,108 @@
+---
+title: "Rank Graduate Package"
+author: "Aphiaut Imuan"
+format: 
+  revealjs:
+    theme: moon
+editor: visual
+---
+
+## Rank Graduate Package
+
+The package include ranking of the 2018 graduate in USA. When users run this package, they will be able to use 4 functions
+
+-   Launch shiny application
+
+-   Illustrate how each degree fits into job requirement using graph
+
+-   Find maximum and minimum of each variables
+
+-   Show the table of the top 6 median income
+
+    ```{r}
+    #| echo: false
+    library(tidyverse)
+    ```
+
+## Install the package
+
+<br>
+
+```{r}
+#| echo: true
+#| eval: false
+# install.packages("devtools")
+devtools::install_github("etc5523-2022/rpkg-aphiaut")
+library(rankgraduate)
+
+```
+
+## Launch shiny application
+
+<br>
+
+```{r}
+#| echo: true
+#| eval: false
+
+rankgraduate::run_app()
+```
+
+## Graph Illustration
+
+The graph illustrates how different industries require various majors from university such as Nurses role prefer graduate that has the nursing degree.
+
+```{r}
+#| echo: true
+rankgraduate::employee("Nursing")
+```
+
+## Numeric Function
+
+Function shows the maximum and minimum for each elements for example median income and number of graduate.
+
+<br>
+
+`maxvar()` and `minvar()` are created as it is easy and straightforward for beginner users to access the data.
+
+## Examples of Numeric Function
+
+<br>
+
+```{r}
+#| echo: true
+#| eval: true
+
+rankgraduate::maxvar("Unemployed")
+
+```
+
+```{r}
+#| echo: true
+#| eval: true
+
+rankgraduate::minvar("Unemployed")
+```
+
+<br>
+
+This function shows that there are maximum of 28169 graduate that are unemployed in the certain degree on the other hand, another degree has minimum unemployment is 0.
+
+## Top 6 Median Income Table
+
+The table showcases the median income level for top 6 majors in the university.
+
+<br>
+
+The users will be able to understand the certain degree in deeper level and to choose ranges of the data depending on their preference.
+
+## Example of table function 
+
+```{r}
+#| echo: true
+#| eval: true
+
+rankgraduate::table_rank(100000,40000) %>%
+  kableExtra::kable() %>%
+  kableExtra::kable_styling(full_width = F)
+```

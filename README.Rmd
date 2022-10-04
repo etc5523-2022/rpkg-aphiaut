@@ -32,7 +32,7 @@ devtools::install_github("etc5523-2022/rpkg-aphiaut")
 
 ## Get Started
 
-```{r}
+```{r, message=FALSE, warning=FALSE}
 library(rankgraduate)
 ```
 
@@ -47,6 +47,10 @@ launch_app()
 
 ```{r}
 rankgraduate::employee("Nursing")
+```
+
+```{r}
+rankgraduate::table_rank(100000,40000)
 ```
 
 ## Learn More About the Package and Functions
