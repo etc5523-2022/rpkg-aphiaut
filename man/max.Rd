@@ -10,8 +10,8 @@ max(variable = NULL)
 min(variable = NULL)
 }
 \arguments{
-\item{variable}{The numeric variables in university dataset.}
+\item{variable}{is the numeric variables in university dataset.}
 }
 \description{
-This functiond illustrate Maximum and Minimum.
+These functions illustrate Maximum and Minimum.
 }

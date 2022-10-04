@@ -4,9 +4,16 @@
 \name{rankgraduate-package}
 \alias{rankgraduate}
 \alias{rankgraduate-package}
-\title{rankgraduate: What the Package Does (One Line, Title Case)}
+\title{rankgraduate: Rank Graduated Package}
 \description{
 Provides datasets and functions to show graph of Shiny app that illustrates the rank of major in the USA by median income.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/etc5523-2022/rpkg-aphiaut}
+}
+
 }
 \author{
 \strong{Maintainer}: Aphiaut Imuan \email{aimu0001@student.monash.edu}

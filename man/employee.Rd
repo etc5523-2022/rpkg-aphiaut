@@ -7,8 +7,8 @@
 employee(major = NULL)
 }
 \arguments{
-\item{major}{The name of major in the USA}
+\item{major}{is the name of majors in the USA}
 }
 \description{
-This function illustrates a graph of number of jobs that require employee degree.
+This function illustrates a graph of the number of jobs that require an employee degree.
 }

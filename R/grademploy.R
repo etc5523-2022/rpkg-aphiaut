@@ -1,9 +1,9 @@
 #' Employee graph
 #'
 #' @description
-#' This function illustrates a graph of number of jobs that require employee degree.
+#'  This function illustrates a graph of the number of jobs that require an employee degree.
 #'
-#' @param major The name of major in the USA
+#' @param major is the name of majors in the USA
 #'
 #' @export
 employee <- function(major = NULL){
@@ -46,9 +46,9 @@ employee <- function(major = NULL){
 #' Maximum and Minimum
 #'
 #' @description
-#' This functiond illustrate Maximum and Minimum.
+#' These functions illustrate Maximum and Minimum.
 #'
-#' @param variable The numeric variables in university dataset.
+#' @param variable is the numeric variables in university dataset.
 #'
 
 #'
