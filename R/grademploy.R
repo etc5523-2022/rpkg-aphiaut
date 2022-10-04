@@ -32,13 +32,13 @@ employee <- function(major = NULL){
     dplyr::mutate(Job = forcats::fct_relevel(Job,
                              "Degree required jobs", "Non-degree required jobs"))
 
-  plotly::ggplotly(ggplot2::ggplot(data = employ_bar, ggplot2::aes(x = Job, y = number_jobs, fill = Job)) +
+  ggplot2::ggplot(data = employ_bar, ggplot2::aes(x = Job, y = number_jobs, fill = Job)) +
              ggplot2::geom_bar(stat='identity') +
              ggplot2::ggtitle("The number of jobs that require the major degree")+
              ggplot2::scale_fill_manual(values=c("#F3C0A1", "#C7E3A4")) +
              ggplot2::scale_y_continuous(labels = scales::comma)+
              ggplot2::xlab("Job") +
-             ggplot2::ylab("Number of jobs"))
+             ggplot2::ylab("Number of jobs")
 }
 }
 

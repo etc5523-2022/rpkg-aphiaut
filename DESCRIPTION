@@ -17,7 +17,6 @@ Imports:
     forcats,
     ggplot2,
     magrittr,
-    plotly,
     scales,
     shiny,
     tidyr
